@@ -1,4 +1,5 @@
-butt.onclick = function() {
-    var thisValue = document.getElementById('input').value;
-    document.getElementById('inform').innerHTML = "Output: " + thisValue;
-};
+  
+const butt = document.getElementById('butt'),
+    input = document.getElementById('in'),
+    target = document.getElementById('inf')
+    button.addEventListener("click", e => target.textContent = input.value)
